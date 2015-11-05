@@ -1,8 +1,11 @@
 Package: GADS
-Title: What the Package Does (one line, title case)
+Title: R interface to the Global Aerosol Data Set Fortran program
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.2.2)
-License: What license is it under?
+Authors@R: person("Michael", "Kearney", email = "mrke@unimelb.edu.au", role = c("aut", "cre"))
+Description: This package extracts data from the Global Aerosol Data Set for use
+    as input for the NicheMapR microclimate model
+Depends:
+    R (>= 3.2.2)
+License: MIT
 LazyData: true
+RoxygenNote: 5.0.0
